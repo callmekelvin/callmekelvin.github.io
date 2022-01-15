@@ -1,0 +1,15 @@
+{
+	"name": "website-portfolio",
+	"version": "0.1.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build:css": "tailwindcss -i ./stylesheets/tailwind.css -o ./stylesheets/style.css"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"tailwindcss": "^3.0.15"
+	}
+}
